@@ -23,7 +23,7 @@ public class Usuario {
     @OneToMany(mappedBy = "usuario")
     private List<Orden> ordenes;
 
-    public Usuario(Integer id, String nombre, String username, String email, String direccion, String telefono, String tipo, String password) {
+    public Usuario(Integer id, String nombre, String username, String email, String direccion, String telefono, String tipo, String password, String s) {
         this.id = id;
         this.nombre = nombre;
         this.username = username;
